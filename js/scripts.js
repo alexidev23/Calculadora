@@ -30,7 +30,7 @@ function borrar() {
     pantalla.value = operacion
 }
 
-function calculo() {
+function resultado() {
     try {
         let resultado = eval(operacion);
         pantalla.value = resultado;
